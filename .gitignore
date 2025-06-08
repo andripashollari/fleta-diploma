@@ -1,12 +1,12 @@
 node_modules/
 client/node_modules/
-server/node_modules/
+server1/node_modules/
 dist/
 client/dist/
-server/dist/
+server1/dist/
 .env
 client/.env
-server/.env
+server1/.env
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
