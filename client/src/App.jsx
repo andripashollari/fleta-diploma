@@ -9,6 +9,8 @@ import Register from './pages/Register';
 
 function App() {
   return (
+    <>
+    
     <Routes>
       <Route path="/" element={<Dashboard />} />
       <Route path="/editor/:projectId" element={<Editor />} />
@@ -16,6 +18,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
     </Routes>
+  </>
   );
 }
 
